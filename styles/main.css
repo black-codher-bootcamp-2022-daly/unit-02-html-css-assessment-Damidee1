@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Urbanist&display=swap");
+* {
+  background-color: bisque;
+}
+body {
+  color: #373d3f;
+  font-family: poppins;
+}
+img {
+  border-radius: 50%;
+  float: right;
+}
