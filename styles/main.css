@@ -29,15 +29,15 @@ img {
   line-height: 55px;
   font-size: 18px;
 }
-.f-right{
+.f-right {
   flex: 33.3%;
   padding: 10px;
 }
-.f-middle{
+.f-middle {
   flex: 33.3%;
   padding: 10px;
 }
-.f-last{
+.f-last {
   flex: 33.3%;
   padding: 10px;
 }
@@ -102,3 +102,4 @@ img {
   .flex-container {
     flex-direction: column;
   }
+}
