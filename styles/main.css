@@ -50,7 +50,7 @@ img {
   font-size: smaller;
   padding-top: 400px;
 }
-.foot {
+.social-stuff {
   text-align: center;
   border-bottom: #3b5998;
   background-color: brown;
@@ -58,7 +58,7 @@ img {
   width: 100%;
   margin-top: 400px;
 }
-.foot ul li {
+.social-stuff ul li {
   text-decoration: none;
   list-style-type: none;
   display: inline-block;
