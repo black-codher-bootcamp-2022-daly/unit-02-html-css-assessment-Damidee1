@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Urbanist&display=swap");
+
+body {
+  color: #373d3f;
+  font-family: poppins;
+  background-color: lavender;
+  background-image: url(../../styles/images/backgroundP.png);
+}
+.name {
+  color: brown;
+  font-style: italic;
+}
+img {
+  border-radius: 50%;
+  float: right;
+}
+h2 {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffdae5;
+  border-radius: 5px;
+}
+.flex-container > div {
+  background-color: brown;
+  color: #ffdae5;
+  width: 500px;
+  margin: 70px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 18px;
+}
+.f-right {
+  flex: 33.3%;
+  padding: 10px;
+}
+.f-middle {
+  flex: 33.3%;
+  padding: 10px;
+}
+.f-last {
+  flex: 33.3%;
+  padding: 10px;
+}
+
+.timeline h1 {
+  text-align: center;
+  color: brown;
+}
+.base {
+  font-size: smaller;
+  padding-top: 400px;
+}
+.social-stuff {
+  text-align: center;
+  border-bottom: #3b5998;
+  background-color: brown;
+  position: relative;
+  width: 100%;
+  margin-top: 400px;
+}
+.social-stuff ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 5px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
